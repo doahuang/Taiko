@@ -1,0 +1,38 @@
+body {
+  display: grid;
+  justify-content: center;
+}
+
+header {
+  position: relative;
+  text-align: center;
+  height: 70%;
+}
+
+header h1 {
+  font-family: fantasy;
+  font-size: 60px;
+}
+
+header ul {
+  position: absolute;
+  display: flex;
+  right: 0;
+  bottom: 0;
+}
+
+header ul li {
+  font-size: 20px;
+  color: blue;
+  margin-left: 10px;
+}
+
+.game {
+  position: relative;
+  top: -15px;
+  width: 800px;
+  height: 500px;
+  /* background-image: url('./gifs/bg.jpg'); */
+  background-repeat: no-repeat;
+  background-size: contain;
+}
