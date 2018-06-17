@@ -2,13 +2,13 @@
 
 ## Background and Overview
 
-Taiko is a rhythm game featured a Japanese Taiko drum. The player hits a drum in a stream of notes following a piece of music.
+Taiko is a rhythm game featured a Japanese Taiko drum.
+
+The player hits a drum in a stream of notes following a piece of music.
 
 ## MVP Features
 
 In Taiko, player is able to:
-
-- Read the how-to-play
 
 - Choose two difficulty levels
 
@@ -28,7 +28,7 @@ In Taiko, player is able to:
 
 ## Wireframes
 
-
+![Taiko](https://raw.githubusercontent.com/doahuang/Taiko/master/gifs/wireframe.png)
 
 ## Implementation Timeline
 
@@ -40,13 +40,13 @@ __Over the weekend__
 
 - [ ] Register key events
 
-- [ ] Load drum sound effects
-
 __Day 1__
 
 - [ ] Set up canvas
 
 - [ ] Set up Web Audio API
+
+- [ ] Load sound effects and music
 
 __Day 2__
 
@@ -56,7 +56,7 @@ __Day 3__
 
 - [ ] Complete progress bar
 
-- [ ] score
+- [ ] Complete score
 
 __Day 4__
 
