@@ -28,7 +28,7 @@ In Taiko, player is able to:
 
 ## Wireframes
 
-![Taiko](https://raw.githubusercontent.com/doahuang/Taiko/master/gifs/wireframe.png)
+![Taiko](./wireframe.png)
 
 ## Implementation Timeline
 
@@ -46,7 +46,7 @@ __Day 1__
 
 - [ ] Set up Web Audio API
 
-- [ ] Load sound effects and music
+- [x] Load sound effects and music
 
 __Day 2__
 

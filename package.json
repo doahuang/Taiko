@@ -1,0 +1,24 @@
+{
+  "name": "Taiko",
+  "version": "1.0.0",
+  "description": "## Background and Overview",
+  "main": "bundle.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch lib/entry.js -o bundle.js -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doahuang/Taiko.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doahuang/Taiko/issues"
+  },
+  "homepage": "https://github.com/doahuang/Taiko#readme"
+}
