@@ -32,15 +32,12 @@ header ul li {
   top: -15px;
   width: 800px;
   height: 500px;
-  /* background-image: url('./gifs/bg.jpg'); */
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 
 .game img {
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 60px;
+  left: 20px;
 }
 
 .game canvas {

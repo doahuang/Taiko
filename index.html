@@ -3,13 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>Taiko</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="gifs/center_note.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src='bundle.js'></script>
   </head>
   <body>
-    <audio class='don' src="./sounds/don.mp3"></audio>
-    <audio class='don2' src="./sounds/don2.mp3"></audio>
-    <audio class='kat' src="./sounds/kat.mp3"></audio>
+    <audio class='don' src="sounds/don.mp3"></audio>
+    <audio class='don2' src="sounds/don2.mp3"></audio>
+    <audio class='kat' src="sounds/kat.mp3"></audio>
     <header>
       <h1>Taiko</h1>
       <ul>
@@ -18,9 +20,8 @@
       </ul>
     </header>
     <div class="game">
-      <img src="./gifs/drum.gif" alt="Taiko no Tatsujin">
+      <img src="gifs/drum.gif" alt="Taiko no Tatsujin">
       <canvas id="game-canvas" width="800" height="500"></canvas>
     </div>
-    <script src='./bundle.js'></script>
   </body>
 </html>

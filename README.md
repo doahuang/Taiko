@@ -34,15 +34,15 @@ In Taiko, player is able to:
 
 __Over the weekend__
 
-- [ ] Read tutorials
+- [x] Finish proposal
 
-- [ ] Build file skeletons
+- [x] Set up canvas
 
-- [ ] Register key events
+- [x] Register key events
 
 __Day 1__
 
-- [ ] Set up canvas
+- [ ] Read tutorials
 
 - [ ] Set up Web Audio API
 
