@@ -30,6 +30,8 @@ In Taiko, player is able to:
 
 ![Taiko](./wireframe.png)
 
+![Taiko](./wireframe_2.png)
+
 ## Implementation Timeline
 
 __Over the weekend__
