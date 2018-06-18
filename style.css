@@ -36,3 +36,14 @@ header ul li {
   background-repeat: no-repeat;
   background-size: contain;
 }
+
+.game img {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.game canvas {
+  border: 2px solid black;
+  border-radius: 10px;
+}

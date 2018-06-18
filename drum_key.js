@@ -1,24 +1,16 @@
-class DrumKey {
-  constructor(key, note) {
+import Drum from './drum.js';
+
+export default class DrumKey {
+  constructor(drum, key) {
+    this.drum = drum;
     this.key = key;
-    this.note = note;
-    this.registerKey();
   }
 
-  registerKey() {
+  register(note) {
     document.addEventListener('keyup', e => {
-      let keyUp = e.key.toLowerCase();
-      if (this.key !== keyUp) {
-        return;
+      if (this.key === e.key.toLowerCase()) {
+        this.drum.play(note);
       }
-      const noteSound = document.querySelector(`.${this.note}`);
-      noteSound.currentTime = 0;
-      noteSound.play();
     });
   }
 }
-
-const keyA = new DrumKey('a', 'kat');
-const keyS = new DrumKey('s', 'don');
-const keyK = new DrumKey('k', 'don2');
-const keyL = new DrumKey('l', 'kat');
