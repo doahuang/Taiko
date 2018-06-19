@@ -44,15 +44,15 @@ __Over the weekend__
 
 __Day 1__
 
-- [ ] Read tutorials
+- [x] Read tutorials
 
-- [ ] Set up Web Audio API
+- [x] Complete moving notes
 
 - [x] Load sound effects and music
 
 __Day 2__
 
-- [ ] Complete gameplay logic
+- [x] Complete gameplay logic
 
 __Day 3__
 

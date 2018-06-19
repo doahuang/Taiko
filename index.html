@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en" dir="ltr" oncontextmenu="return false">
   <head>
     <meta charset="utf-8">
     <title>Taiko</title>
@@ -14,6 +14,7 @@
     <audio class='bumblebee' src="https://res.cloudinary.com/doahuang/video/upload/v1529382816/bumblebee.ogg"></audio>
     <audio class='lacompanella' src="https://res.cloudinary.com/doahuang/video/upload/v1529384916/lacampanella.ogg"></audio>
     <audio class='overture' src="https://res.cloudinary.com/doahuang/video/upload/v1529382816/overture.ogg"></audio>
+    <audio class='heyya' src="https://res.cloudinary.com/doahuang/video/upload/v1529382822/heyya.ogg"></audio>
     <header>
       <h1>Taiko</h1>
       <ul>
@@ -31,7 +32,9 @@
         <i id='volume-on' class="fas fa-volume-up"></i>
       </div>
       <img src="gifs/drum.gif" alt="Taiko no Tatsujin">
-      <canvas id="game-canvas" width="800" height="500"></canvas>
+      <h1 id='spirit'>魂</h1>
+      <span id='score'>SCORE</span><h1 id='counter'></h1>
+      <canvas id="canvas" width="800" height="500"></canvas>
     </div>
   </body>
 </html>
