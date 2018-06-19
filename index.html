@@ -5,6 +5,7 @@
     <title>Taiko</title>
     <link rel="icon" href="gifs/red_note.png">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <script src='bundle.js'></script>
   </head>
   <body>
@@ -21,6 +22,14 @@
       </ul>
     </header>
     <div class="game">
+      <div class="play-pause">
+        <i id='pause' class="fas fa-pause hide"></i>
+        <i id='play' class="fas fa-play"></i>
+      </div>
+      <div class="music-mute">
+        <i id='volume-off' class="fas fa-volume-off hide"></i>
+        <i id='volume-on' class="fas fa-volume-up"></i>
+      </div>
       <img src="gifs/drum.gif" alt="Taiko no Tatsujin">
       <canvas id="game-canvas" width="800" height="500"></canvas>
     </div>

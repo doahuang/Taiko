@@ -1,4 +1,4 @@
-body, header, div, h1, h2, h3, img, a, p, ul, li, canvas {
+body, header, div, h1, h2, h3, img, a, p, ul, li, canvas, i {
   margin: 0;
   padding: 0;
   border: 0;
@@ -48,11 +48,35 @@ header ul li {
 
 .game img {
   position: absolute;
-  top: 60px;
+  top: 100px;
   left: 20px;
 }
 
 .game canvas {
   border: 2px solid black;
   border-radius: 10px;
+}
+
+.game .hide {
+  display: none;
+}
+
+.play-pause, .music-mute {
+  position: absolute;
+  top: 20px;
+  cursor: pointer;
+}
+
+.play-pause {
+  left: 20px;
+  transform: scale(1.8);
+}
+
+.music-mute {
+  right: 20px;
+  transform: scale(2);
+}
+
+#volume-off {
+  padding: 0 10px 0 0;
 }
