@@ -1,3 +1,15 @@
+body, header, div, h1, h2, h3, img, a, p, ul, li, canvas {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: monospace, sans-serif;
+  font-size: inherit;
+  color: inherit;
+  text-decoration: none;
+  list-style: none;
+  /* border: 1px solid red !important; */
+}
+
 body {
   display: grid;
   justify-content: center;
