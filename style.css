@@ -36,8 +36,12 @@ header ul {
 header ul li {
   font-size: 20px;
   font-weight: bold;
-  color: blue;
   margin-left: 20px;
+}
+
+header ul li:hover {
+  color: white;
+  text-shadow: -1px 0 1px black, 0 1px 1px black, 1px 0 1px black, 0 -1px 1px black;
 }
 
 .game {
@@ -67,16 +71,28 @@ header ul li {
   top: 78px;
   font-size: 30px;
   color: red;
-  font-weight: bold;
   font-style: italic;
+  font-weight: bold;
 }
 
-#counter {
+#score-counter {
   position: absolute;
   left: 140px;
   top: 50px;
   font-size: 65px;
   font-style: italic;
+  text-shadow: -1px 0 1px white, 0 2px 1px white, 2px 0 1px white, 0 -2px 1px white;
+}
+
+#combo {
+  position: absolute;
+  right: 20px;
+  bottom: 30px;
+  color: white;
+  font-size: 100px;
+  font-style: italic;
+  text-shadow: -1px 0 1px black, 0 2px 1px black, 2px 0 1px black, 0 -2px 1px black;
+  /* -vendor-animation-duration: 1s; */
 }
 
 #spirit {
@@ -94,6 +110,8 @@ canvas {
   background-image: url('gifs/bg.jpg');
   background-repeat: no-repeat;
   background-size: contain;
+  background-color: rgba(255, 255, 255, 0.25);
+  background-blend-mode: color;
 }
 
 .game .hide {
@@ -104,6 +122,10 @@ canvas {
   position: absolute;
   top: 20px;
   cursor: pointer;
+}
+
+.play-pause:hover, .music-mute:hover {
+  color: white;
 }
 
 .play-pause {
