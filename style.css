@@ -68,6 +68,7 @@ header ul li {
   font-size: 30px;
   color: red;
   font-weight: bold;
+  font-style: italic;
 }
 
 #counter {
@@ -75,6 +76,7 @@ header ul li {
   left: 140px;
   top: 50px;
   font-size: 65px;
+  font-style: italic;
 }
 
 #spirit {
