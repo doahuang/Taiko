@@ -1,7 +1,7 @@
 body, header, div, h1, h2, h3, img, a, p, ul, li, canvas, i {
   margin: 0;
   padding: 0;
-  border: 0;
+  border: none;
   font-family: sans-serif;
   font-size: inherit;
   color: inherit;
@@ -46,9 +46,24 @@ header ul li:hover {
 
 .game {
   position: relative;
-  top: -15px;
+  top: -20px;
   width: 800px;
   height: 500px;
+}
+
+.instruction h1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.instruction .how-to {
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+}
+
+.instruction .how-to div:last-child {
+  width: 400px;
 }
 
 #drum {
@@ -67,7 +82,7 @@ header ul li:hover {
 
 #score {
   position: absolute;
-  left: 20px;
+  left: 15px;
   top: 78px;
   font-size: 30px;
   color: red;
@@ -77,8 +92,9 @@ header ul li:hover {
 
 #score-counter {
   position: absolute;
-  left: 140px;
+  left: 130px;
   top: 50px;
+  font-family: monospace;
   font-size: 65px;
   font-style: italic;
   text-shadow: -1px 0 1px white, 0 2px 1px white, 2px 0 1px white, 0 -2px 1px white;
@@ -87,12 +103,11 @@ header ul li:hover {
 #combo {
   position: absolute;
   right: 20px;
-  bottom: 30px;
+  bottom: 10px;
   color: white;
   font-size: 100px;
   font-style: italic;
   text-shadow: -1px 0 1px black, 0 2px 1px black, 2px 0 1px black, 0 -2px 1px black;
-  /* -vendor-animation-duration: 1s; */
 }
 
 #spirit {
@@ -107,10 +122,10 @@ header ul li:hover {
 canvas {
   border: 3px solid black;
   border-radius: 10px;
-  background-image: url('gifs/bg.jpg');
+  background-image: url('../gifs/bg.jpg');
   background-repeat: no-repeat;
   background-size: contain;
-  background-color: rgba(255, 255, 255, 0.25);
+  background-color: rgba(255, 255, 255, 0.15);
   background-blend-mode: color;
 }
 

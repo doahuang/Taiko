@@ -5,8 +5,8 @@
     <title>Taiko</title>
     <link rel="icon" href="gifs/red_note.png">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
     <script src='bundle.js'></script>
   </head>
   <body>
@@ -15,8 +15,10 @@
     <header>
       <h1>Taiko</h1>
       <ul>
-        <li><a href="https://github.com/doahuang" target="_blank">GitHub</a></li>
-        <li><a href="https://www.linkedin.com/in/doahuang/" target="_blank">LinkedIn</a></li>
+        <li><a href="https://github.com/doahuang" target="_blank">
+          <i class="fab fa-github"></i> GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/doahuang/" target="_blank">
+          <i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
       </ul>
     </header>
     <div class="game">
@@ -33,6 +35,22 @@
       <div class="music-mute">
         <i id='volume-off' class="fas fa-volume-off hide"></i>
         <i id='volume-on' class="fas fa-volume-up"></i>
+      </div>
+    </div>
+    <div class="instruction">
+      <h1>How to play</h1>
+      <div class="how-to">
+        <div>
+          <p>These are two music notes</p>
+          <img src="gifs/red_note.png">
+          <img src="gifs/blue_note.png">
+        </div>
+        <div>
+          <p>When the note is moving towards the drum</p>
+          <p>press [F] or [J] to hit the the red note</p>
+          <p>press [D] or [L] to hit the the blue note</p>
+          </p>
+        </div>
       </div>
     </div>
   </body>

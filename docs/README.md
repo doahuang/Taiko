@@ -62,9 +62,9 @@ __Day 3__
 
 __Day 4__
 
-- [ ] Style canvas
+- [x] Style canvas
 
-- [ ] Create controls for game start, pause, restart
+- [x] Create controls for game start, pause, restart
 
 - [ ] Write how-to-play
 
