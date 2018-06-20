@@ -7,7 +7,7 @@ body, header, div, h1, h2, h3, img, a, p, ul, li, canvas, i {
   color: inherit;
   text-decoration: none;
   list-style: none;
-  /* border: 1px solid r2ed !important; */
+  /* border: 1px solid red !important; */
 }
 
 body {
@@ -46,10 +46,18 @@ header ul li {
   height: 500px;
 }
 
-.game img {
+#drum {
   position: absolute;
   top: 170px;
-  left: 20px;
+  left: 15px;
+  width: 122px;
+}
+
+#fire {
+  position: absolute;
+  top: 15px;
+  right: -45px;
+  width: 140px;
 }
 
 #score {
@@ -79,6 +87,9 @@ header ul li {
 .game canvas {
   border: 3px solid black;
   border-radius: 10px;
+  background-image: url('gifs/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .game .hide {

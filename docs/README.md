@@ -56,9 +56,9 @@ __Day 2__
 
 __Day 3__
 
-- [ ] Complete progress bar
+- [x] Complete progress bar
 
-- [ ] Complete score
+- [x] Complete score
 
 __Day 4__
 

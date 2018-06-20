@@ -14,7 +14,6 @@
     <audio class='bumblebee' src="https://res.cloudinary.com/doahuang/video/upload/v1529382816/bumblebee.ogg"></audio>
     <audio class='lacompanella' src="https://res.cloudinary.com/doahuang/video/upload/v1529384916/lacampanella.ogg"></audio>
     <audio class='overture' src="https://res.cloudinary.com/doahuang/video/upload/v1529382816/overture.ogg"></audio>
-    <audio class='heyya' src="https://res.cloudinary.com/doahuang/video/upload/v1529382822/heyya.ogg"></audio>
     <header>
       <h1>Taiko</h1>
       <ul>
@@ -23,6 +22,11 @@
       </ul>
     </header>
     <div class="game">
+      <img id='fire' class='hide' src="gifs/fire.gif" alt="spirit fire">
+      <img id='drum' src="gifs/drum.png" alt="Taiko no Tatsujin">
+      <h1 id='spirit'>魂</h1>
+      <span id='score'>SCORE</span><h1 id='counter'></h1>
+      <canvas id="canvas" width="800" height="500"></canvas>
       <div class="play-pause">
         <i id='pause' class="fas fa-pause hide"></i>
         <i id='play' class="fas fa-play"></i>
@@ -31,10 +35,6 @@
         <i id='volume-off' class="fas fa-volume-off hide"></i>
         <i id='volume-on' class="fas fa-volume-up"></i>
       </div>
-      <img src="gifs/drum.gif" alt="Taiko no Tatsujin">
-      <h1 id='spirit'>魂</h1>
-      <span id='score'>SCORE</span><h1 id='counter'></h1>
-      <canvas id="canvas" width="800" height="500"></canvas>
     </div>
   </body>
 </html>
