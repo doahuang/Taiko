@@ -16,27 +16,26 @@ body {
 }
 
 header {
-  position: relative;
-  text-align: center;
-  height: 70%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
 }
 
 header h1 {
   font-family: fantasy;
-  font-size: 60px;
+  font-size: 40px;
+  margin-left: 10px;
 }
 
 header ul {
-  position: absolute;
   display: flex;
-  right: 0;
-  bottom: 0;
+  align-items: center;
 }
 
 header ul li {
   font-size: 20px;
   font-weight: bold;
-  margin-left: 20px;
+  margin: 0 10px;
 }
 
 header ul li:hover {
@@ -44,46 +43,51 @@ header ul li:hover {
   text-shadow: -1px 0 1px black, 0 1px 1px black, 1px 0 1px black, 0 -1px 1px black;
 }
 
+.modal {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  border-radius: 10px;
+  width: 800px;
+  height: 500px;
+  background-color: rgba(255, 255, 255, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: fantasy;
+}
+
 .game {
   position: relative;
-  top: -20px;
   width: 800px;
   height: 500px;
 }
 
-.instruction {
-  position: relative;
-  display: grid;
-  justify-content: center;
+.how-to {
   font-size: 20px;
   line-height: 30px;
-  margin-bottom: 20px;
+  margin: 10px 0;
+  text-align: center;
 }
 
-.instruction h1 {
+.how-to h1 {
   font-size: 30px;
-  text-align: center;
   margin-bottom: 10px;
 }
 
-.instruction b {
+.how-to b {
   padding: 0 5px;
   border: 2px solid black;
   border-radius: 20px;
 }
 
 #red, #blue {
-  position: absolute;
-  right: 300px;
-  width: 35px;
-}
-
-#red {
-  top: 65px;
-}
-
-#blue {
-  bottom: 25px;
+  width: 30px;
 }
 
 #drum {
@@ -153,7 +157,7 @@ canvas {
   display: none;
 }
 
-.play-pause, .music-mute {
+.play-pause, .music-mute, #restart {
   position: absolute;
   top: 20px;
   cursor: pointer;
@@ -164,8 +168,17 @@ canvas {
 }
 
 .play-pause {
-  left: 20px;
+  left: 65px;
   transform: scale(1.8);
+}
+
+#restart {
+  left: 25px;
+  transform: scale(1.8);
+}
+
+#restart:hover {
+  color: white;
 }
 
 .music-mute {

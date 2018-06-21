@@ -10,21 +10,19 @@ The player hits a drum in a stream of notes following a piece of music.
 
 In Taiko, player is able to:
 
-- Choose two difficulty levels
+- Play three different music pieces at random speed
 
 - Hit the drum to play a music note
 
-- View the progress and score
+- View the score, spirit gauge, and combo
 
-- Start, pause, restart the level
+- Start, pause, restart the game
 
 ## Technologies
 
 - Vanilla Javascript
 
 - HTML5 Canvas/CSS
-
-- Web Audio API
 
 ## Wireframes
 
@@ -56,22 +54,24 @@ __Day 2__
 
 __Day 3__
 
-- [x] Complete progress bar
-
 - [x] Complete score
+
+- [x] Complete spirit gauge
+
+- [x] Complete combo
 
 __Day 4__
 
 - [x] Style canvas
 
-- [x] Create controls for game start, pause, restart
+- [x] Create controls for start, pause, restart
 
-- [ ] Write how-to-play
+- [x] Write how-to-play
 
 ## Bonus
 
-- Allow players to customize the drum sounds
+- Synchronize the moving notes with the music tempo
 
-- Allow players to import their own music
+- Add more music and difficulties
 
-- Allow two-player mode
+- Two-player mode
